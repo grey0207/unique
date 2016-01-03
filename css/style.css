@@ -1,0 +1,204 @@
+body {
+  position: relative;
+  font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei";
+}
+/*start-screen-1*/
+.screen-1{
+    width: auto;
+}
+
+
+@media screen and (min-width: 750px){
+.screen-1 .col-lg-8 img.center-block{
+    margin-top: 280px;
+}
+.screen-1 .col-lg-8 p{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 100px;
+}
+.screen-1 .col-lg-8 h1{
+    color: #fff;
+    margin-bottom: 400px;
+}
+}
+
+@media screen and (max-width: 750px){
+.screen-1 .col-lg-8 img.center-block{
+    margin-top: 280px;
+}
+.screen-1 .col-lg-8 p{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+.screen-1 .col-lg-8 h1{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 280px;
+}
+}
+
+
+/*start-screen-2*/
+div.screen-2{
+    background-color: #1c202b;
+}
+div.screen-2 img{
+    position:relative;
+    top:-200px;
+}
+.about-us-text{
+    width: 780px;
+}
+.screen-2 h1{
+    font-size: 48px;
+    color: #ffd502;
+    margin: 120px 0 90px 0;
+}
+.screen-2 h4{
+    color: #fff;
+    line-height: 40px;
+    margin-bottom:100px;
+}
+.screen-2 a{
+    color: #ffd502;
+}
+
+/*start-screen-3*/
+.screen-3>.container-fluid{
+    background-color: #ffd502;
+}
+@media screen and (min-width: 750px){
+.screen-3 .glyphicon{
+    font-size: 50px;
+    color: #757575;
+}
+}
+.screen-3 a{
+    color: #757575;
+}
+
+.screen-3 li.active a,.screen-3 li.active span,.screen-3 li.active a:hover,.screen-3 li.active a:link,.screen-3 li a:hover{
+    color: #000;
+    background-color: transparent;
+}
+@media screen and (max-width: 750px){
+    .screen-3 ul{
+        display: table;
+        width: auto;
+        margin: 0 auto;
+    }
+    .screen-3 li{
+        float: left;
+    }
+    .screen-3 li a{
+        font-size: 0px;
+    }
+    .screen-3 li span{
+        font-size: 25px;
+    }
+}
+.screen-3 h1{
+    font-size: 48px;
+    color: #000;
+    margin: 120px 0 75px 0;
+}
+.screen-3 .tab-content .tab-pane{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.screen-3 .tab-content .tab-pane .col-lg-4{
+    margin-bottom: 100px ;
+}
+/*start-screen-4*/
+.screen-4{
+    background-color: #fff;
+}
+.screen-4 h1{
+    font-size: 48px;
+    color: #757575;
+    margin: 120px 0 90px 0;
+}
+.screen-4 ul.pager{
+    margin-top: 65px;
+} 
+.screen-4 ul.pager li>a{
+    color: #757575;
+    border-radius: 0px;
+}
+.screen-4 nav{
+    margin-bottom: 100px;
+}
+/*start-screen-5*/
+.screen-5{
+    background-color: #eee;
+}
+.screen-5 h1{
+    font-size: 48px;
+    color: #757575;
+    margin: 120px 0 27px 0;
+}
+.screen-5 .container{
+    max-width: 970px;
+}
+.screen-5 .nav li a{
+    color: #959595;
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.screen-5 li.active>a,div.screen-5 li.active>a>span,div.screen-5 li.active>a:hover,div.screen-5 li.active>a:link,div.screen-5 li>a:hover{
+    color: #000;
+    background-color: transparent;
+}
+.screen-5 .nav-pills{
+    display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.screen-5 #cp-1{
+    margin-bottom: 100px;
+}
+/*start-screen-6*/
+.screen-6{
+    background-color: #fff;
+}
+.screen-6 h1{
+    font-size: 48px;
+    color: #757575;
+    margin: 120px 0 140px 0;
+}
+.screen-6 #form{
+    background-color: #000;
+    opacity: 0.8;
+    height:700px;
+}
+.screen-6 form{
+    padding: 30px 30px;
+}
+.screen-6 form>p{
+    font-size: 24px;
+    color:#fff;
+}
+.screen-6 form>input{
+    display:block;
+    margin-bottom: 20px;
+    width: 200px;
+    height:40px;
+    padding-left: 10px;
+}
+.screen-6 form>textarea{
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+.screen-6 form>button{
+    border-radius: 0px;
+    background-color: #ffd502;
+}
+
+.screen-6 img{
+    margin-top: 400px;
+}
