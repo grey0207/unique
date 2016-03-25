@@ -66,7 +66,7 @@ div.screen-2 img{
 }
 
 /*start-screen-3*/
-.screen-3>.container-fluid{
+.screen-3{
     background-color: #ffd502;
 }
 @media screen and (min-width: 750px){
@@ -89,8 +89,8 @@ div.screen-2 img{
         width: auto;
         margin: 0 auto;
     }
-    .screen-3 li{
-        float: left;
+    .screen-3 .tab-btn>li{
+        display:inline-block;
     }
     .screen-3 li a{
         font-size: 0px;
@@ -104,12 +104,32 @@ div.screen-2 img{
     color: #000;
     margin: 120px 0 75px 0;
 }
-.screen-3 .tab-content .tab-pane{
-    margin-top: 100px;
-    margin-bottom: 150px;
+.screen-3 .container{
+    padding-bottom:80px;
 }
-.screen-3 .tab-content .tab-pane .col-lg-4{
-    margin-bottom: 100px ;
+.screen-3 .tab-btn{
+    margin:0 auto 50px;
+    text-align:center;
+}
+
+.screen-3 #APPLICATION-SOFTWARE a{
+    padding:5px 5px;
+    text-decoration:none;
+    display: inline-block;
+}
+.screen-3 #APPLICATION-SOFTWARE a:nth-child(1){
+    background:#535353;
+    color:#fff;
+    margin-right:4px;
+}
+.screen-3 #APPLICATION-SOFTWARE a:nth-child(2){
+    background:#fff;
+}
+.screen-3 #APPLICATION-SOFTWARE img,.screen-3 #SOCIAL-MEDIA-MARKETING img{
+    width:100%;
+}
+.screen-3 .tab-content{
+    padding-top: 80px ;
 }
 /*start-screen-4*/
 .screen-4{
@@ -130,6 +150,21 @@ div.screen-2 img{
 .screen-4 nav{
     margin-bottom: 100px;
 }
+.screen-4 .customer-list{
+    list-style-type:none;
+    max-width: 920px;
+    margin:0 auto;
+    padding:0;
+    text-align: center;
+}
+.screen-4 .customer-list>li{
+    display:inline-block;
+    
+    width: 150px;
+    height: 94px;
+    background-image: url('../images/customer-list.png');
+    background-repeat: no-repeat;
+}
 /*start-screen-5*/
 .screen-5{
     background-color: #eee;
@@ -145,19 +180,19 @@ div.screen-2 img{
 .screen-5 .nav li a{
     color: #959595;
     font-size: 12px;
-    padding: 4px 8px;
+    padding: 0px 10px;
 }
 
 .screen-5 li.active>a,div.screen-5 li.active>a>span,div.screen-5 li.active>a:hover,div.screen-5 li.active>a:link,div.screen-5 li>a:hover{
     color: #000;
     background-color: transparent;
 }
-.screen-5 .nav-pills{
-    display: table;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+.screen-5 .tab-btn{
+    margin:0 auto 50px;
+    text-align:center;
+}
+.screen-5 .tab-btn>li{
+    display:inline-block;
 }
 .screen-5 #cp-1{
     margin-bottom: 100px;
